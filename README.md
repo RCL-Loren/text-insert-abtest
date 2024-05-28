@@ -1,7 +1,19 @@
 # text-insert-abtest
-Chrome extension that will insert text into a text box where the cursor is on a web page, and will allow an A/B testing.
+Chrome extension that will insert text into a text box where the cursor is on a web page, and will allow a very simple A/B testing by inserting 2 alternating templates. 
 
-ONE DAY CHALLENGE!! It is 11:21 am Eastern Daylight Time. I will try leveraging GPT 4o and GitHub Copilot to create the following by the end of the day today. I need a Chrome plug-in that allows me to store text templates that insert text into a text box on a web page. When clicked, it will create a pop-up and allow me to select a single template to place into the text box, OR it will allow me to toggle an A/B test that will take two selections and run an A/B test until the toggle is turned off. Bookmark this and follow me to see if I make it, ![🥳](https://abs-0.twimg.com/emoji/v2/svg/1f973.svg "Partying face")or it blows ![💣](https://abs-0.twimg.com/emoji/v2/svg/1f4a3.svg "Bomb")up on me!!
+## Load the extension in Chrome
+Open Chrome and navigate to the Extensions page:
+
+Type chrome://extensions/ in the address bar and press Enter.
+Enable Developer Mode:
+
+In the top right corner of the Extensions page, toggle the switch to enable Developer Mode.
+Load Unpacked Extension:
+
+Click the "Load unpacked" button.
+In the file dialog that opens, navigate to the directory where your extension files are located and select that folder.
+
+ONE DAY CHALLENGE!! It is 11:21 am Eastern Daylight Time. I will try leveraging GPT 4o and GitHub Copilot to create the following by the end of the day today. I need a Chrome plug-in that allows me to store text templates that insert text into a text box on a web page. When clicked, it will create a pop-up and allow me to select a single template to place into the text box, OR it will allow me to toggle an A/B test that will take two selections and run an A/B test until the toggle is turned off. Bookmark this and follow me to see if I make it, or it blows "Bomb")up on me!!
 
 #### Step 1 - create a GitHub repo and clone it locally.
 Major interruption 1.
@@ -18,8 +30,6 @@ Start: 11:41 pm EDT
 Stop: 12:00 pm EDT
 
 #### Step 3 - Create and execute initial prompt
-
-[[Initial GPT 4o project prompt]]
 
 Start: 12:00 pm EDT
 Stop:  12: 34 pm EDT
@@ -46,10 +56,6 @@ The pop-up seemed to work. Along with the add template pop-up.
 And then it properly injected the template text into the text box for non A/B test.
 
 It also properly handled the alternating injection from the A/B testing.
-
-![[Pasted image 20240528134413.png]]
-
-![[Pasted image 20240528134906.png]]
 
 Start: 1:35 pm EDT
 Stop: 1:50 pm EDT
