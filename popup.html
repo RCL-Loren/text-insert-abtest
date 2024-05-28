@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Template Inserter</title>
+    <style>
+        /* Add your CSS here */
+    </style>
+</head>
+<body>
+<div id="template-list">
+    <!-- Dynamically populated list of templates with checkboxes -->
+</div>
+<label>
+    Enable A/B Testing:
+    <input type="checkbox" id="ab-test-toggle">
+</label>
+<label for="ab-test-name"></label><input type="text" id="ab-test-name" placeholder="A/B Test Name">
+<button id="insert-button">Insert</button>
+<button id="add-template-button">Add Template</button>
+
+<div id="add-template-popup" style="display:none;">
+    <label for="template-text"></label><textarea id="template-text"></textarea>
+    <label for="template-title"></label><input type="text" id="template-title" placeholder="Template Title">
+    <button id="add-button">Add</button>
+</div>
+
+<script src="popup.js"></script>
+</body>
+</html>
